@@ -5,6 +5,12 @@ h1 {
     font-family:  Georgia, 'Times New Roman', Times, serif, serif
 
 }
+nav {
+    color:rgb(80, 80, 80);
+    text-align:center;
+    font-size: 30px;
+    font-family:  Georgia, 'Times New Roman', Times, serif, serif
+}
 #schoolname {color: rgb(80, 80, 80);
     text-align: center;
     font-size: 30px;
