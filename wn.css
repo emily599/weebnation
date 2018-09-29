@@ -78,9 +78,11 @@ margin-right: auto;
     border-color: rgb(80, 80, 80);
     margin: 10px;
 }
+#officertitle {
+    float: right;
+    padding: 20px;
+}
 #officerimages {
     padding: 10px;
-    position: relative;
-    display: inline-block;
-    float: left;
+    left: 100px;
 }

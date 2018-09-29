@@ -1,0 +1,26 @@
+#fixed {
+    background-color:#eee;
+    padding:30px;
+    position: fixed;
+    text-align: center;
+    top: 0px;
+    left: 0px;
+
+}
+#lorem {
+    height:50%;
+    width: 50%;
+}
+#relative {
+    position: relative;
+    padding: 100px;
+    background-color: #eee;
+    left:50px;
+}
+#absolute {
+    position: absolute;
+    background-color: #999;
+    padding: 40px;
+    right: -30px;
+    bottom: 0px
+}
