@@ -5,15 +5,24 @@ h1 {
     font-family:  Georgia, 'Times New Roman', Times, serif, serif
 
 }
+h2 {
+    font-size: 30px;
+}
+
+
+#home {
+    float: left;
+    background-color: lightpink;
+    width: 22.5%;
+    
+}
 nav {
     color:rgb(80, 80, 80);
     text-align:center;
     font-size: 30px;
     font-family:  Georgia, 'Times New Roman', Times, serif, serif;
     
-}
-#nav {
-    background-color:lightpink;
+
 }
 #schoolname {color: rgb(80, 80, 80);
     text-align: center;
@@ -59,4 +68,19 @@ margin-right: auto;
 }
 #meeting {width:504px;
     height:378px;
-    border: 5px solid rgb(80, 80, 80);}
+    border: 5px solid rgb(80, 80, 80);
+}
+#officers {
+    background-color: antiquewhite;
+    float: bottom;
+    border-style: outset;
+    border-width: 2px;
+    border-color: rgb(80, 80, 80);
+    margin: 10px;
+}
+#officerimages {
+    padding: 10px;
+    position: relative;
+    display: inline-block;
+    float: left;
+}
