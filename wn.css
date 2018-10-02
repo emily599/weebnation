@@ -1,15 +1,25 @@
+header {
+    overflow: auto;
+    
+}
 h1 {
     color: rgb(80, 80, 80);
-    text-align: center;
+    text-align: right;
     font-size: 50px;
-    font-family:  Georgia, 'Times New Roman', Times, serif, serif
+    font-family:  Georgia, 'Times New Roman', Times, serif, serif;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 
 }
 h2 {
     font-size: 30px;
 }
 
-
+#box {
+    margin: 20px;
+    background-color:rgba(192,192,192,0.3);
+    padding: 20px;
+}
 #home {
     float: left;
     background-color: lightpink;
@@ -18,22 +28,35 @@ h2 {
 }
 nav {
     color:rgb(80, 80, 80);
-    text-align:center;
     font-size: 30px;
     font-family:  Georgia, 'Times New Roman', Times, serif, serif;
-    
-
+    float: left;
+    clear: both;
+}
+#nav {
+    margin-bottom: 40px;
+}
+nav a {
+    text-decoration: none;
+    color: rgb(80, 80, 80);
 }
 #schoolname {color: rgb(80, 80, 80);
-    text-align: center;
+    text-align: right;
     font-size: 30px;
-    font-family:  Georgia, 'Times New Roman', Times, serif, serif;}
+    margin-top: 0px;
+    padding-top: 0px;
+    font-family:  Georgia, 'Times New Roman', Times, serif, serif;
+    margin-right: 0px;
+    padding-right: 0px;
+}
 h4 {
-    border-bottom:solid;
-    text-align:center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-align:right;
 }
 h2 {
     color:rgb(80,80,80);
+    padding: 20px;
     font-family:  Georgia, 'Times New Roman', Times, serif, serif
 }
 h4 { color:rgb(80, 80, 80);
@@ -50,9 +73,11 @@ p {    color:rgb(80, 80, 80);
     font-size: 20px;
     font-family:  Georgia, 'Times New Roman', Times, serif, serif;
 }
-img {display:block;
-margin-left:auto;
-margin-right: auto;
+img {
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 20px;
 }
 
 
@@ -61,28 +86,38 @@ margin-right: auto;
     position: absolute;
     left:0; 
     top:0; 
-    width:100%; 
+    width:100%;
     position: fixed;
     z-index: -1;
+
 
 }
 #meeting {width:504px;
     height:378px;
-    border: 5px solid rgb(80, 80, 80);
+    border: 2px solid rgb(80, 80, 80);
+    
 }
 #officers {
-    background-color: antiquewhite;
-    float: bottom;
-    border-style: outset;
-    border-width: 2px;
-    border-color: rgb(80, 80, 80);
+    background-color:whitesmoke;
     margin: 10px;
+    text-align: left;
+    overflow: auto;
+
 }
 #officertitle {
-    float: right;
-    padding: 20px;
+    padding-left: 20px;
+    overflow:auto;
+    margin-right: 0px;
+    margin-bottom: 0px;
+
+    
+
 }
-#officerimages {
-    padding: 10px;
-    left: 100px;
+#officerimages img{
+    float: left;
+    margin-right: 0px;
+    border-width: 1px;
+    border-color: rgb(80, 80, 80);
+    border-style: solid;
+    margin: 20px;
 }
