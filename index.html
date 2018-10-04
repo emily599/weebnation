@@ -6,18 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Weeb Nation UW</title>
-    <link rel="stylesheet" href="wn.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-
+    <link rel="stylesheet" href="wn.css">
 </head>
 
 <body>
+    <header class="top"></header>
     <header>
         <h1>Weeb Nation</h1>
-        <p>
-            <h2 id="schoolname">University of Washington</h2>
-        </p>
-
+        <br>
+        <h2 id="schoolname">University of Washington</h2>
+        <br>
         <h4>Est. 2018</h4>
         <nav>
             <div id=nav>
@@ -29,7 +30,16 @@
         </nav>
     </header>
     <div id="box">
-        <img src="meeting.jpg" id="meeting" alt="meeting2018pic">
+        <div class="card" style="width: 720px;">
+            <img class="card-img-top" src="meeting.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">2018 Last Meeting</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">Photos</a>
+            </div>
+        </div>
+        <!-- <img src="meeting.jpg" id="meeting" alt="meeting2018pic"> -->
 
 
         <h2 id=" Club Goals">Club
@@ -51,6 +61,7 @@
             reading
             manga, attending conventions, and cosplaying.</p>
     </div>
+    <footer>Weeb Nation</footer>
 </body>
 <div class="mycontainer">
     <img src="shiba.png" alt="Weeb Nation Logo" class="center">
