@@ -1,6 +1,9 @@
 /*general*/
 body {
     font-family: 'Montserrat', sans-serif;
+    position: relative;
+    padding-bottom: 60px;
+    height: 100%
 }
 
 .top {
@@ -13,6 +16,7 @@ header {
     overflow: auto;
     position: relative;
     padding: 15px;
+    top: 0;
 
 }
 h1 {
@@ -140,9 +144,15 @@ img {
     border-style: solid;
     margin: 20px;
 }
+#box {
+    position: relative;
+}
 footer {
     background-color: rgba(238, 225, 238, 0.8);
     border-top: 5px;
-    padding: 30px;
     text-align: center;
+    padding: 30px;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
 }
