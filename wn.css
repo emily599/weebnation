@@ -1,18 +1,24 @@
+/*general*/
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
 header {
     overflow: auto;
-    
 }
 h1 {
     color: rgb(80, 80, 80);
     text-align: right;
     font-size: 50px;
-    font-family:  Georgia, 'Times New Roman', Times, serif, serif;
+    
     margin-bottom: 0px;
     padding-bottom: 0px;
 
 }
 h2 {
     font-size: 30px;
+   
 }
 
 #box {
@@ -29,7 +35,6 @@ h2 {
 nav {
     color:rgb(80, 80, 80);
     font-size: 30px;
-    font-family:  Georgia, 'Times New Roman', Times, serif, serif;
     float: left;
     clear: both;
 }
@@ -45,7 +50,6 @@ nav a {
     font-size: 30px;
     margin-top: 0px;
     padding-top: 0px;
-    font-family:  Georgia, 'Times New Roman', Times, serif, serif;
     margin-right: 0px;
     padding-right: 0px;
 }
@@ -57,21 +61,21 @@ h4 {
 h2 {
     color:rgb(80,80,80);
     padding: 20px;
-    font-family:  Georgia, 'Times New Roman', Times, serif, serif
 }
 h4 { color:rgb(80, 80, 80);
     font-size: 15px;
-    font-family:  Georgia, 'Times New Roman', Times, serif, serif
+   
 
 }
 ol div li {
     color:rgb(80, 80, 80);
     font-size: 20px;
-    font-family:  Georgia, 'Times New Roman', Times, serif, serif
+   
 }
-p {    color:rgb(80, 80, 80);
+p {    
+    color:rgb(80, 80, 80);
     font-size: 20px;
-    font-family:  Georgia, 'Times New Roman', Times, serif, serif;
+    
 }
 img {
     display:block;
